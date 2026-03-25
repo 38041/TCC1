@@ -1,0 +1,22 @@
+button{
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding: 15px;
+    background-color: #4f9cf9;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+h2{
+   background-color: blueviolet;
+}
+
+h3{
+    background-color: aqua;
+    float: left;
+    margin-top: 2vh;
+    
+
+}
