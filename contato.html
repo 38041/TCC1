@@ -10,48 +10,64 @@
     </a>
 </head>
 <body>
-     <!-- Informações e mapa -->
     <h1>Contato</h1>
     <p>Endereço:</p>
     <P> Av. Mirandópolis, 501 - Vila Pompéia, Campinas - SP, 13050-470</P>
-      
-    <h2>Telefone:
-        <p></p>📞
-       <p></p> ☎️
-       <p></p> ⏰
-       <p></p> 📩
-    </h2>
-        <!-- Mapa Google -->
+   
 <div class="mapa">
     <iframe 
         src="https://www.google.com/maps?q=Av.+Mirandópolis,+501,+Campinas+SP&output=embed"
         allowfullscreen=""
         loading="lazy">
     </iframe>
+    <h2>Telefone:
+        <p></p>📞
+       <p></p> ☎️
+       <p></p> ⏰
+       <p></p> 📩
+    </h2>
+</div>
+<header>
+  <h1>Solicitar Cotação</h1>
+  <p>Mangueiras e Conexões Hidráulicas</p>
+</header>
 
-  <!-- Formulário de contato -->
-         <div class="contact-form">
-        <form action="#" method="post">
-         <label for="nome">Nome</label>
-        <input type="text" id="nome" name="nome" placeholder="Nome Completo" required>
+<div class="container">
 
-        <label for="email">E-mail</label>
-         <input type="email" id="email" name="email" placeholder="Endereço de e-mail" required>
+  <h2>Preencha os dados</h2>
 
-         <label for="assunto">Assunto</label>
-        <select id="assunto" name="assunto">
-         <option value="suporte">Suporte</option>
-         <option value="cotação">Cotação</option>
-         </select>
+  <form>
+    <label>Nome</label>
+    <input type="text" placeholder="Seu nome" required>
 
-        <label for="mensagem">Mensagem</label>
-        <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem..." rows="5" required></textarea>
+    <label>Email</label>
+    <input type="email" placeholder="seu@email.com" required>
 
-         <button type="submit">ENVIAR</button>
-                </form>
-            </div>
+    <label>Telefone</label>
+    <input type="tel" placeholder="(00) 00000-0000">
+
+    <label>Produto</label>
+    <select>
+      <option>Mangueira Hidráulica</option>
+      <option>Conexão Reta</option>
+      <option>Conexão Curva</option>
+      <option>Adaptador</option>
+    </select>
+
+    <label>Quantidade</label>
+    <input type="number" min="1" placeholder="Ex: 10">
+
+    <label>Descrição</label>
+    <textarea placeholder="Detalhes do pedido..."></textarea>
+
+    <button type="submit">Enviar Cotação</button>
+  </form>
 
 </div>
+
+<footer>
+  <p>© 2026 - Andermaq</p>
+</footer>
+
 </head>
 </body>
-</html>
