@@ -14,28 +14,6 @@ body {
   height: 100vh;
 }
 
-/* Lado esquerdo */
-.left {
-  flex: 1;
-   
-  background-size: cover;
-  position: relative;
-}
-
-.overlay {
-  background: rgba(255, 255, 255, 0.5);
-  color: #000000;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 40px;
-}
-
-.overlay h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-}
 
 /* Lado direito */
 .right {
@@ -101,7 +79,7 @@ button:hover {
   text-decoration: none;
 }
 
-/* Mobile */
+/* 📱 Mobile */
 @media (max-width: 767px) {
   .container {
     flex-direction: column;
@@ -116,7 +94,7 @@ button:hover {
   }
 }
 
-/* 📱 Tablet */
+/*  Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
   .container {
     flex-direction: column;
