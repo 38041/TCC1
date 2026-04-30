@@ -1,43 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sobre.css">
-    <a href="index.html">
-        <button>Voltar</button>
-    </a>
-    <title>Sobre</title>
+  <meta charset="UTF-8">
+  <title>Quem Somos</title>
+  <link rel="stylesheet" href="sobre.css">
+   <button>Voltar</button>
 </head>
-<body>
-  
-     <img src="" alt="banner">
 
-    <h1>Quem somos</h1> 
-   
-    <p>  Na vida adulta, a correria do dia a dia faz com que muitos adultos não tenham tempo para 
-         realizar manutenções domiciliares, o que resulta na necessidade de métodos facilitadores
-         para sanar situações problemas, como:  vazamentos internos da casa, compras de peças 
-         hidráulicas e etc. 
-        A Andermaq nasce na cidade de Campinas, no estado de São Paulo,  fundada em 19 de maio de 2017,
+    <div class="container"> 
+            <nav>
+                <a href="index.html"> <!-- define um link/ destino do link-->
+                 <img src="/andermaq.png" alt="Logo principal"> <!--Exibe a imagem da página-->
+                </a>
+                    <ul class="ul"> <!--organiza uma lista-->
+                        <a href="index.html">Home</a> <!--fica dentro do item-->
+                        <a href="sobre.html">Sobre</a>
+                        <a href="serviços.html">Serviços</a>
+                <a href="login.html">Login</a>
+                        <a class="btn" href="contato.html">Contato</a>
+                                       <!--define para onde o link vai-->
+                    </ul>
+                        </nav> <!--menu do site.-->
+    
+<body>
+
+<section class="container">
+  <h1>Quem somos</h1>
+
+  <div class="content">
+
+    <!-- TEXTO -->
+    <div class="text">
+      <p>
+        Na vida adulta, a correria do dia a dia faz com que muitos adultos não tenham tempo para 
+        realizar manutenções domiciliares, o que resulta na necessidade de métodos facilitadores
+        para sanar situações problemas, como: vazamentos internos da casa, compras de peças 
+        hidráulicas e etc.
+      </p>
+
+      <p>
+        A Andermaq nasce na cidade de Campinas, no estado de São Paulo, fundada em 19 de maio de 2017,
         para atender a necessidade da população local. Ela visa oferecer produtos hidráulicos de qualidade 
         e prestação de serviço de acordo com as necessidades do público-alvo.
+      </p>
+
+      <p>
         Atualmente é muito mais fácil acessar algum site para buscar informações, como preço de alguma 
         ferramenta ou até fazer orçamentos. Isso facilita a vida dos usuários. Sem esta fonte eles teriam 
-        que ir ao estabelecimento e obter estas informações. Com esta tecnologia os usuários poderão acessar 
-        o site de qualquer lugar, em qualquer momento, fazendo com que poupe maior tempo para realizar outras 
-        tarefas. Nosso objetivo é facilitar este processo, 
-        desenvolvendo um projeto voltado para esta área. </p>
+        que ir ao estabelecimento e obter estas informações.
+      </p>
 
-        
-         <video width="640" height="360" controls>
+      <p>
+        Com esta tecnologia os usuários poderão acessar o site de qualquer lugar, em qualquer momento,
+        poupando tempo para realizar outras tarefas. Nosso objetivo é facilitar este processo,
+        desenvolvendo um projeto voltado para esta área.
+      </p>
+    </div>
+
+    <!-- VÍDEO -->
+    <div class="media">
+      <video controls>
         <source src="video1.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo.
+      </video>
 
-    <img src="" alt="">
-    <h2>Como surgiu</h2>
-    <p>...</p>
-    <h3>Certificações</h3>
-    <p>...</p>
+        <img src="./" alt="">      
 
+     
+    </div>
+
+  </div>
+</section>
+<footer>
+  <p>© 2026 - Andermaq</p>
+</footer>
 </body>
 </html>

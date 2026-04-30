@@ -6,9 +6,8 @@
     <link rel="stylesheet" href="contato.css">
     <title>Contato</title>
     <a href="index.html">
-        <button>Voltar</button>
-        
-    </a>
+       </a>
+       <button>Voltar</button>
 </head>
 <body>
     <h1>Contato</h1>
@@ -17,10 +16,14 @@
    
 <div class="mapa">
     <iframe 
-        src="https://www.google.com/maps?q=Av.+Mirandópolis,+501,+Campinas+SP&output=embed"
+        src="https://www.google.com/maps?q=Av.+Mirandópolis,+501,+Campinas+SP&output=embed" 
         allowfullscreen=""
         loading="lazy">
     </iframe>
+    <!--define o MAPA-->
+    <!--permite abrir em tela cheia-->
+    <!--arrega o mapa só quando ele aparece na tela (melhora desempenho)-->
+    <!--ncorporar um conteúdo externo dentro da página-->
     <h2>Telefone:
         <p></p>📞 3396-9300
        <p></p> ☎️ (19)981128608
@@ -34,13 +37,13 @@
   <p>Mangueiras e Conexões Hidráulicas</p>
 </header>
 
-<div class="container">
+<div class="container"> <!--organizar e centralizar conteúdo-->
 
   <h2>Preencha os dados</h2>
 
   <form>
-    <label>Nome</label>
-    <input type="text" placeholder="Seu nome" required>
+    <label>Nome</label> <!--dar um rótulo-->
+    <input type="text" placeholder="Seu nome" required> <!--usuário pode digitar ou selecionar informações-->
 
     <label>Email</label>
     <input type="email" placeholder="seu@email.com" required>
@@ -50,7 +53,7 @@
 
     <label>Produto</label>
     <select>
-      <option>Mangueira Hidráulica</option>
+      <option>Mangueira Hidráulica</option> <!--uma opção que o usuário pode escolher-->
       <option>Conexão Reta</option>
       <option>Conexão Curva</option>
       <option>Adaptador</option>
@@ -60,7 +63,8 @@
     <input type="number" min="1" placeholder="Ex: 10">
 
     <label>Descrição</label>
-    <textarea placeholder="Detalhes do pedido..."></textarea>
+     <!--texto de exemplo que aparece antes de digitar--> <textarea placeholder="Detalhes do pedido...">  
+    </textarea> <!--campo de texto maior-->
 
 
     <button type="submit">Enviar Cotação
