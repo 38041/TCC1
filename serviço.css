@@ -1,7 +1,7 @@
  body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background-color: #f4f4f4;
+      background-color: #0055aa;
     }
 
     header {
@@ -28,7 +28,7 @@
     background-color: #3580db;
 }
 header{
-    background: #0055aa;
+    background: #0163c6;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;

@@ -19,6 +19,7 @@ h3{
 }
 p{
     margin: 10px;
+  
     color: #0000009c;
 }
 .container{
@@ -40,10 +41,20 @@ p{
     background-color: #3580db;
 }
 header{
-    background: #0055aa;
+    /*background: url('./img2.png');
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+    background-color: #0055aa;
+}
+#logo{
+    background: url("./andermaq.png");
+    width: 30vh;
+    height: 10vh;
+    background-size: cover;
+    border: 1px solid black;
+    display: block;
 }
 /*alinhamento da menu*/
 nav{
@@ -123,3 +134,4 @@ nav ul a:hover::after{
 .faca-orcamento .faca-orcamento-img{
     width: 50%;
 }
+

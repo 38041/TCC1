@@ -44,6 +44,7 @@ body {
   justify-content: center;
   align-items: center;
   background: linear-gradient(135deg, #0055aa, #3580db);
+  
 }
 
 .login-box {
@@ -91,6 +92,22 @@ button {
 button:hover {
   background: #532ed9;
 }
+a {
+  width: 10vh;
+  padding: 10px;
+  border: none;
+  background: #0055aa;
+  color: white;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+
+a:hover {
+  background: #532ed9;
+}
+
 
 .forgot {
   display: block;
