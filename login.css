@@ -93,7 +93,7 @@ button:hover {
   background: #532ed9;
 }
 a {
-  width: 10vh;
+  width: 100%;
   padding: 10px;
   border: none;
   background: #0055aa;
