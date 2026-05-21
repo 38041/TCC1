@@ -33,6 +33,7 @@ header{
     background-size: cover;
     background-attachment: fixed;
 }
+
 /*alinhamento da menu*/
 nav{
     display: flex;
