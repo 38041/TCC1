@@ -3,7 +3,16 @@
       margin: 0;
       background-color: #0055aa;
     }
-
+#img{
+    background: url("./andermaq.png");
+    width: 30vh;
+    height: 10vh;
+    background-size: cover;
+    border: 1px solid black;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
     header {
       background-color: #003366;
       color: white;
