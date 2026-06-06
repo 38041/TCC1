@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#0055aa;
+}
+
+.produto{
+    width:80%;
+    margin:50px auto;
+    background:white;
+    border-radius:15px;
+    padding:20px;
+    display:flex;
+    gap:30px;
+    align-items:center;
+}
+
+.produto img{
+    width:400px;
+    border-radius:10px;
+}
+
+.info{
+    flex:1;
+}
+
+.info h1{
+    color:#003366;
+}
+
+.info p{
+    line-height:1.6;
+}
+
+.voltar{
+    display:inline-block;
+    margin-top:20px;
+    background:#003366;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+}

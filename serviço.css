@@ -130,5 +130,33 @@ nav ul a:hover::after{
     .card button:hover {
       background-color: #0055aa;
     }
+    
+    .detalhes {
+  background: white;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.detalhes img {
+  width: 250px;
+  max-width: 100%;
+  margin: 20px 0;
+}
+
+.detalhes h1 {
+  color: #003366;
+}
+
+.detalhes h2 {
+  color: #0055aa;
+}
+
+.detalhes p {
+  font-size: 16px;
+  line-height: 1.6;
+}
 
 
