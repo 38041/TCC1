@@ -3,7 +3,7 @@
       margin: 0;
       background-color: #0055aa;
     }
-#img{
+#logo{
     background: url("./andermaq.png");
     width: 30vh;
     height: 10vh;
@@ -12,6 +12,43 @@
     display: block;
     margin-top: -10px;
     margin-bottom: 20px;
+}
+/*alinhamento da menu*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 55px;
+}
+/*alinhamento dos botoes*/
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+/*estilizaçao dos textos dentro dos botoes*/
+nav ul a{
+    color: white;
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+}
+nav ul a:not(.btn):after{
+    content: "";
+    background-color: #0055aa;
+    height: 3px;
+    width: 0%;
+    display: block;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+/*animaçao dos botoes*/
+nav ul a:hover::after{
+    width: 100%;
+
 }
     header {
       background-color: #003366;
@@ -28,6 +65,7 @@
     cursor: pointer;
     display: inline-block;
     transition: 0.1s ease;
+    
 }
 .btn:hover{
     background-color: #3580db;
@@ -42,42 +80,6 @@ header{
     background-size: cover;
     background-attachment: fixed;
 }
-
-/*alinhamento da menu*/
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 30px;
-}
-/*alinhamento dos botoes*/
-nav ul{
-    display: flex;
-    align-items: center;
-}
-/*estilizaçao dos textos dentro dos botoes*/
-nav ul a{
-    color: white;
-    margin: 0 25px;
-    text-transform: uppercase;
-    font-size: 14px;
-    display: block;
-}
-nav ul a:not(.btn):after{
-    content: "";
-    background-color: #0055aa;
-    height: 3px;
-    width: 0%;
-    display: block;
-    margin: 0 auto;
-    transition: 0.3s;
-}
-/*animaçao dos botoes*/
-nav ul a:hover::after{
-    width: 100%;
-
-}
-
 
 
     .container {

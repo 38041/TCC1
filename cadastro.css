@@ -13,7 +13,16 @@ body {
   display: flex;
   height: 100vh;
 }
-
+#logo{
+    background: url("./andermaq.png");
+    width: 30vh;
+    height: 10vh;
+    background-size: cover;
+    border: 1px solid black;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
 
 /* Lado direito */
 .right {
@@ -77,6 +86,18 @@ button:hover {
   font-size: 0.9rem;
   color: #3580db;
   text-decoration: none;
+}
+
+a {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #0055aa;
+  color: rgb(255, 255, 255);
+  border-radius: 9px;
+  cursor: pointer;
+  transition: 0.3s;
+  
 }
 
 /* 📱 Mobile */

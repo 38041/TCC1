@@ -10,10 +10,14 @@
 }
 body{
     background-color: #f1f6fc31;
+        background:#c4c5c5
+
     
 }
 section, footer{
     padding: 56px 0;
+        background:#c4c5c5
+
 }
 .banner{
     background: url('./img2.png');
@@ -137,23 +141,35 @@ nav ul a:hover::after{
 .faca-orcamento .container{
     display: flex;
     align-items: center;
+    background:#c4c5c5
 }
 /*estilizaçao de todo o texto do orçamento*/
 .faca-orcamento .faca-orcamento-text{
     width: 50%;
     padding: 0px 40px;
+    
 }
 /*estilizaçao do h3 do orçamento*/
 .faca-orcamento .faca-orcamento h3{
     font-size: 53px;
+
 }
 /*estilizaçao do paragrafo do orçamento*/
 .faca-orcamento .faca-orcamento p{
     margin: 5px 0 10px 0;
+    
 }
 /*estilizaçao da imagem do orçamento*/
 .faca-orcamento .faca-orcamento-img{
     width: 50%;
+    
+}
+/* Gif-video*/
+.video-fundo {
+    width: 120%;
+    height: 130%;
+    object-fit: cover;
+
 }
     footer {
       text-align: center;
